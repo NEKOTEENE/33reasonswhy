@@ -1,0 +1,139 @@
+body 
+{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 16px;
+            background-color: black;
+}
+
+.papyrus
+{
+    background-image: url("/images/свиток.png");
+    background-repeat: no-repeat;
+    padding: 80px;
+    background-size: cover;
+}
+
+.papyrus p
+{
+    width: 50%;
+}
+
+
+.letter
+{
+    background-image: url("/images/фон письмо.png");
+    padding: 16px;
+    margin-bottom: 100px;
+    width: 70%;
+}
+
+
+.justify
+{
+    display: flex;
+    justify-content: center;
+}
+
+img 
+{
+    display: block;
+    max-width: 100%;
+}
+
+summary
+{
+    padding-bottom: 16px;
+}
+
+main
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.paper 
+{
+    background-image: url("/images/image 11.png");
+    text-align: center;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 100px;
+    width: 60%;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a
+{
+    margin: 16px;
+}
+
+.pin
+{
+    display: inline-block !important;
+    width: 54px;
+    height: 54px;
+    background-image: url("/images/пинтерест.png");
+    background-repeat: no-repeat;
+}
+
+.music
+{
+    display: inline-block !important;
+    width: 54px;
+    height: 54px;
+    background-image: url("/images/яма.png");
+    background-repeat: no-repeat;
+}
+
+.tg
+{
+    display: inline-block !important;
+    width: 54px;
+    height: 54px;
+    background-image: url("/images/телеграм.png");
+    background-repeat: no-repeat;
+}
+
+.signature
+{
+    text-align: right;
+}
+
+.left
+{
+    justify-content: left;
+}
+
+.right
+{
+    justify-self: right;
+}
+
+.header
+{
+    text-align: center;
+    font-size: 80px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.white
+{
+    color: white;
+}
+
